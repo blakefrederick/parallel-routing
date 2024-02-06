@@ -8,7 +8,7 @@ export default async function AreaPage() {
     'City Hall',
     'Uptown',
     'Old Town',
-    "McDonald's",
+    'McDonald&apos;s',
     'Downtown',
     'University',
     'ParPark',

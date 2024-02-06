@@ -23,7 +23,7 @@ export default function ParallelSecretPage() {
   ]
   return (
     <div>
-      Oracle's secret:{' '}
+      Oracle&apos;s secret:{' '}
       {travelSecrets[Math.floor(Math.random() * travelSecrets.length)]}
     </div>
   )
