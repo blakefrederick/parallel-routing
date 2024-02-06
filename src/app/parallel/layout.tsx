@@ -3,19 +3,19 @@ import { ReactNode } from 'react'
 
 export default function ParallelLayout({
   children,
-  cool,
-  interesting,
+  city,
+  area,
 }: {
   children: ReactNode
-  cool: ReactNode
-  interesting: ReactNode
+  city: ReactNode
+  area: ReactNode
 }) {
   return (
     <>
       <nav className="font-bold my-4">Where to travel</nav>
       <main>{children}</main>
-      {cool}
-      {interesting}
+      {city}
+      {area}
     </>
   )
 }
